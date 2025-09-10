@@ -15,6 +15,10 @@ const buttonVariants = cva(
         secondary: "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
+        // JobTracker specific variants
+        hero: "bg-gradient-to-r from-primary to-primary-light text-primary-foreground hover:shadow-lg transition-all duration-300 font-semibold",
+        success: "bg-gradient-to-r from-secondary to-secondary-light text-secondary-foreground hover:shadow-md transition-all duration-200 font-medium",
+        surface: "bg-surface hover:bg-surface-hover text-foreground border border-border shadow-sm",
       },
       size: {
         default: "h-10 px-4 py-2",
